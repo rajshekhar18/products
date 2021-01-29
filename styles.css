@@ -1,0 +1,238 @@
+/* Heading Section */
+h6 {
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+.head {
+  background-color: #005069;
+  padding: 10px 0 3px 0;
+  width: 100%;
+}
+
+/* Intro or First Middle Section */
+.intro {
+  text-align: center;
+  color: #005069;
+  font-family: "Playfair Display", serif;
+}
+
+.mid {
+  padding-top: 80px;
+  height: 700px;
+  width: 100%;
+  background-color: #F8E0C8;
+  width: 100%;
+}
+.head-img {
+	width: 80%;
+	margin-top: 5%;
+	margin-left: 10%;
+	align-items: center;
+	height: 400px;
+  }
+
+/* Second Middle Layer */
+.mid-2 {
+  background-color: #005069;
+  height: 350px;
+  width: 100%;
+}
+.desc, .para {
+  color: #fff9f0;
+  text-align: center;
+}
+.desc {
+  padding-top: 80px;
+}
+.sub-desc {
+  color: #fff9f0;
+  text-align: center;
+  padding-top: 15px;
+  font-family: "Lora", serif;
+}
+
+/* Third Middle Section */
+.mid-3 {
+  height: 380px;
+  width: 100%;
+}
+.coupon {
+  color: #b50d0d;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 30px;
+}
+.code {
+  border: 2px solid #005069;
+  padding: 10px;
+  font-size: 1.1rem;
+  color: black;
+}
+a {
+  margin-left: 40px;
+}
+.offer {
+  color: #b50d0d;
+  margin-left: 43%;
+  padding: 15px;
+  font-size: 1.5rem;
+  background-color: #ffe7ce;
+}
+.rate {
+  color: #005069;
+  font-size: 2.3rem;
+  background-color: #ffe7ce;
+  padding: 0 5px;
+}
+.link {
+  color: #005069;
+  text-align: center;
+  padding-top: 40px;
+}
+button {
+  background-color: #005069;
+  color: white;
+  margin: 3% 44.5%;
+  padding: 10px;
+  width: 16%;
+}
+
+/* Images Section */
+
+.image {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	/* border: 1px solid black; */
+}
+.footer-image {
+  /* border: 1px solid black; */
+  height: 350px;
+  padding: 0;
+}
+
+img {
+  /* background-size: cover; */
+  height: 80%;
+  width: 100%;
+}
+
+/* Responsive Section */
+@media screen and (max-width: 960px) {
+  .intro {
+    font-size: 2.3rem;
+  }
+  .para {
+    font-size: 2rem;
+  }
+  .sub-desc {
+    font-size: 1.7rem;
+  }
+  .coupon {
+    font-size: 1.7rem;
+  }
+  .code {
+    font-size: 1.1rem;
+  }
+  .offer {
+    font-size: 1.3rem;
+    margin-left: 39%;
+  }
+  .rate {
+    font-size: 1.9rem;
+  }
+  .link {
+    font-size: 1.4rem;
+  }
+  button {
+    width: 20%;
+    margin-left: 41%;
+    padding: 10px;
+  }
+  .image {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 768px) {
+  .intro {
+    font-size: 2.5rem;
+  }
+  .para {
+    font-size: 1.8rem;
+  }
+  .sub-desc {
+    font-size: 1.3rem;
+  }
+  .coupon {
+    font-size: 1.4rem;
+    line-height: 1.7;
+  }
+  .code {
+    font-size: 1rem;
+  }
+  .offer {
+    font-size: 1.1rem;
+    margin-left: 39%;
+  }
+  .rate {
+    font-size: 1.7rem;
+  }
+  .link {
+    font-size: 1.2rem;
+  }
+  button {
+    width: 25%;
+    margin-left: 40%;
+    padding: 10px;
+  }
+  .image {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .intro {
+    font-size: 2.85rem;
+  }
+  .mid-2 {
+    height: 450px;
+  }
+  .para {
+    font-size: 2.3rem;
+  }
+  .sub-desc {
+    font-size: 1.2rem;
+  }
+  .mid-3 {
+    height: 450px;
+  }
+  .coupon {
+    font-size: 1.9rem;
+    line-height: 1.6;
+  }
+  .code {
+    font-size: 1rem;
+  }
+  .offer {
+    font-size: 1.7rem;
+    margin-left: 24%;
+  }
+  .rate {
+    font-size: 2.2rem;
+  }
+  .link {
+    font-size: 1.2rem;
+  }
+  button {
+    width: 40%;
+    margin-left: 33%;
+    padding: 10px;
+  }
+  .image {
+	display: grid;
+	grid-template-columns: 1fr;
+  }
+}
